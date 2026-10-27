@@ -4,7 +4,7 @@ The distributable has been assembled from an explicit file list, not a copy of t
 
 - **Application code and documentation:** newly authored for this starter. Its design and measurement rules are inspired by the personal PRMGR build. No recovered frontend modules with embedded personal configuration are shipped.
 - **House illustration:** `public/assets/starter-house.svg` is new, generic vector artwork authored for this package. It is included under MIT. It is not Peter’s house, an archived screenshot, or third-party stock art.
-- **Fonts:** VT323 (Copyright 2011, The VT323 Project Authors), self-hosted as `public/assets/vt323-*.woff2` from Google Fonts, licensed under the SIL Open Font License 1.1; see `public/assets/VT323-OFL.txt`. System monospace fonts are the fallback.
+- **Fonts:** system font stacks only. No downloaded fonts or font files.
 - **Icons:** simple text/Unicode symbols, rendered by the user’s system fonts. No third-party icon library.
 - **Data:** synthetic examples only. No personal telemetry, device inventories, cameras, account IDs, pairing information or saved login files.
 - **Brand:** PRMGR appears as plain text, not as a copied logo asset. No trademark or endorsement rights are granted by the software license. Rebrand your redistributed product to avoid implying it is an official PRMGR release.
