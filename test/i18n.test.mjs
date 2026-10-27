@@ -14,7 +14,7 @@ test('English and Arabic dictionaries have the same non-empty keys',()=>{
 });
 
 test('every key used by the page and app exists, including metrics and view titles',()=>{
- const used=[...html.matchAll(/data-i18n(?:-label|-alt)?="([^"]+)"/g),...app.matchAll(/\bt\('([\w.]+)'/g),...app.matchAll(/keyed\('([\w.]+)'\)/g),...app.matchAll(/'((?:badge|card|footer|scene)\.\w+)'/g)].map(m=>m[1]).filter(key=>!key.endsWith('.'));
+ const used=[...html.matchAll(/data-i18n(?:-label|-alt)?="([^"]+)"/g),...app.matchAll(/\bt\('([\w.]+)'/g),...app.matchAll(/keyed\('([\w.]+)'\)/g),...app.matchAll(/'((?:card|footer|scene)\.\w+)'/g)].map(m=>m[1]).filter(key=>!key.endsWith('.'));
  for(const key of [...used,...Object.keys(M.metrics).map(k=>'metric.'+k),...['overview','thermal','history'].map(v=>'title.'+v)])assert.ok(key in en,'missing key: '+key);
 });
 

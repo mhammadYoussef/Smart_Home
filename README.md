@@ -18,6 +18,7 @@ Smart Home is an independent project built on the open-source [PRMGR Observatory
 - [Configuration](#configuration)
 - [Language support](#language-support)
 - [Navigation customization](#navigation-customization)
+- [Themes](#themes)
 - [Data sources](#data-sources)
 - [Testing](#testing)
 - [Project structure](#project-structure)
@@ -46,7 +47,7 @@ All features below are implemented in the current code.
 - **Home overview** with cards for solar generation, site consumption, grid import/export and battery charge.
 - An illustrated home scene. The default artwork is generic and replaceable.
 - **Buildings split:** total site, garage and house load (house = site − garage). It is shown only when both readings exist and the site load is not smaller than the garage load.
-- A data-source badge that distinguishes the synthetic demo, imported files and recorder history (recent or stale).
+- The toolbar names the current data source (the synthetic demo, an imported file or recorder history).
 
 ### Energy and heat-pump monitoring
 
@@ -74,10 +75,16 @@ All features below are implemented in the current code.
 - Larger 44 px controls on touch screens.
 - Respects `prefers-reduced-motion`.
 
+### Dark and light themes
+
+- A redesigned **dark theme** (midnight and charcoal surfaces) and a matching **light theme** (soft off-white surfaces), switched with the sun/moon button in the header.
+- The first visit follows the system colour preference. After that, your choice is remembered, and the page loads in it without flashing the other theme.
+- Charts, metric indicators and the house illustration (night and day versions) adapt to the theme.
+
 ### Customizable navigation
 
 - A sidebar that can be **expanded**, **collapsed** to an icon rail, or **hidden** (reopened with a *Menu* button).
-- The sidebar can sit on the **left or right**, independent of the language.
+- The sidebar is placed automatically by language: **left in English, right in Arabic**.
 - On phones it becomes a **slide-out drawer** that closes on Escape, a tap outside, a navigation choice, or its close button.
 - All preferences are remembered between visits.
 
@@ -92,7 +99,8 @@ All features below are implemented in the current code.
 | Local server and recorder | Node.js 22 or later, built-in modules only (`node:http`, `node:fs`, `node:path`) |
 | Tests | Node's built-in test runner (`node --test`) |
 | Optional container | `Dockerfile` based on `node:24-alpine` that runs the recorder |
-| Preferences | Browser `localStorage` (language, sidebar position, sidebar state) |
+| Theming | CSS custom properties (design tokens) with a dark and a light set |
+| Preferences | Browser `localStorage` (theme, language, sidebar state) |
 
 There is no `node_modules`, no `npm install` step and no build step.
 
@@ -201,7 +209,7 @@ Other customization points:
 
 - **Interface text:** `public/i18n.js`.
 - **Metrics, units and colours:** `public/model.js`.
-- **Look and layout:** `public/style.css`. Colours are CSS variables in `:root`.
+- **Look and layout:** `public/style.css`. All colours are theme tokens at the top of the file (see [Themes](#themes)).
 
 Never put passwords, tokens or device addresses in `public/`. Those belong in your private adapter.
 
@@ -223,18 +231,55 @@ Never put passwords, tokens or device addresses in `public/`. Those belong in yo
 | Control | Where | What it does |
 | --- | --- | --- |
 | « / » | Sidebar header | Collapse the sidebar to an icon rail, or expand it again. In the rail, labels remain available to screen readers and as tooltips. |
-| ⇄ | Sidebar header | Move the sidebar to the other side of the screen. |
 | × | Sidebar header | Hide the sidebar completely. On phones, close the drawer. |
 | ☰ Menu | Page header | Shown when the sidebar is hidden, and always on phones. Reopens the sidebar, or opens the drawer. |
 
-- **Position is independent of language.** Arabic can use a left sidebar and English a right one; the text direction does not change. Until you choose, the sidebar follows the reading direction: left in English, right in Arabic.
+- **Position follows the language automatically.** English (left-to-right) puts the sidebar on the **left**; Arabic (right-to-left) puts it on the **right**. Switching language moves it immediately, with no reload. Your expanded/collapsed/hidden choice, the current page and the scroll position are kept. The side cannot be set separately: the stylesheet derives it from the document direction (`dir`).
 - **Content adapts automatically.** The dashboard expands into the freed space, and charts redraw at the new width.
-- **Phones (≤ 700 px):** the sidebar becomes a drawer that slides in from the chosen side, with a dimmed backdrop. While the drawer is open:
+- **Phones (≤ 700 px):** the sidebar becomes a drawer that slides in from the reading-start side (left in English, right in Arabic), with a dimmed backdrop. While the drawer is open:
   - the page behind it cannot be focused;
   - keyboard focus moves into the drawer;
   - Escape, a tap outside, choosing a page or the close button closes it, and focus returns to the Menu button.
-- **Persistence:** stored in `localStorage` as `smart-home-nav-side` (`left`/`right`) and `smart-home-nav-state` (`expanded`/`collapsed`/`hidden`).
+- **Persistence:** the sidebar state is stored in `localStorage` as `smart-home-nav-state` (`expanded`/`collapsed`/`hidden`). The side is not stored. A `smart-home-nav-side` value left by an earlier version is deleted on load.
 - **Keyboard:** all controls are native buttons. A hidden sidebar is skipped when you press Tab.
+
+## Themes
+
+Smart Home ships two coordinated themes built from one set of design tokens:
+
+- **Dark:** deep charcoal and midnight surfaces, a soft periwinkle accent, and warm amber and coral for solar and consumption data.
+- **Light:** off-white backgrounds, white cards with subtle shadows, near-black text, and deeper versions of the same accents, tuned for light backgrounds.
+
+**Switching:** the sun/moon button in the page header. A sun means "switch to light", a moon means "switch to dark". It has a translated tooltip and `aria-label` in English and Arabic, and works in both text directions. The change is instant and needs no reload.
+
+**Saved preference:**
+
+- Your choice is stored in `localStorage` as `smart-home-theme` (`dark`/`light`).
+- With no saved choice, the theme follows your operating system's `prefers-color-scheme`, including live changes.
+- `public/theme-init.js` runs in `<head>` before the page is drawn, so the correct theme is applied from the first frame.
+
+**Design tokens:**
+
+- All colours live as CSS custom properties at the top of `public/style.css`, in one block per theme (`:root[data-theme=dark]` and `:root[data-theme=light]`). Groups:
+  - backgrounds and sidebar: `--bg`, `--sidebar`
+  - surfaces: `--surface`, `--surface-raised`, `--surface-hover`
+  - text: `--text`, `--text-secondary`, `--text-muted`
+  - borders: `--border`, `--border-strong`, `--border-hover`, `--divider`
+  - accent and focus: `--accent`, `--accent-strong`, `--accent-soft`, `--focus`
+  - status: `--success`, `--warning`, `--error`, `--info`
+  - charts: `--chart-solar`, `--chart-load`, `--chart-grid`, `--chart-battery`, `--chart-outdoor`, `--chart-axis`, `--chart-gridline`
+  - shadows and overlay: `--shadow`, `--shadow-drawer`, `--overlay`
+- Components reference only these tokens. Chart lines get their colour from CSS classes, so they recolour without redrawing.
+- To adjust a theme, edit its block.
+
+**Illustration:** the default house image has a night version (`starter-house.svg`) and a day version (`starter-house-light.svg`), and the matching one is shown for each theme. A custom illustration set in `config.js` is used as-is in both themes.
+
+**Accessibility:**
+
+- Text colour pairs in both themes meet WCAG AA contrast (4.5:1 or higher).
+- Chart lines, status colours and focus rings are at least 3:1.
+- Every interactive element shows a visible focus ring.
+- Colour transitions are disabled when `prefers-reduced-motion` is set.
 
 ## Data sources
 
@@ -281,8 +326,11 @@ This runs `node --test test/*.test.mjs` with Node's built-in runner and needs no
   - every key used by the page and the app exists;
   - interpolation and fallback work;
   - all validation errors translate to Arabic and stay unchanged in English.
+- **`test/navigation.test.mjs`:**
+  - the sidebar side is derived from the document direction (left in English, right in Arabic);
+  - the manual position control and its saved setting are gone, while collapse, hide and the saved sidebar state remain.
 
-Browser layout checks (viewports, RTL, sidebar states, drawer behaviour) were run during development with a headless browser. They are not part of the repository's automated suite.
+Browser layout checks (viewports, themes, RTL, sidebar states, language switching, drawer behaviour) were run during development with a headless browser. They are not part of the repository's automated suite.
 
 ## Project structure
 
@@ -295,8 +343,10 @@ Smart_Home/
 │   ├── model.js                # Metrics, validation, demo data (shared with Node)
 │   ├── i18n.js                 # English/Arabic dictionaries and helpers
 │   ├── config.js               # Your labels and illustration path
+│   ├── theme-init.js           # Applies the saved/system theme before first paint
 │   └── assets/
-│       └── starter-house.svg   # Generic home illustration (MIT)
+│       ├── starter-house.svg        # Generic home illustration, night version (MIT)
+│       └── starter-house-light.svg  # Same illustration, day version (MIT)
 ├── server.mjs                  # Local read-only server (127.0.0.1)
 ├── collector.mjs               # Recorder CLI: input file → data/history.json
 ├── history.mjs                 # Recorder storage logic (validate, dedupe, atomic write)
@@ -313,7 +363,8 @@ Smart_Home/
 │   └── VERIFICATION.md         # Verification record from the upstream v1.0.0 release
 ├── test/
 │   ├── starter.test.mjs        # Model, recorder and server tests
-│   └── i18n.test.mjs           # Translation coverage tests
+│   ├── i18n.test.mjs           # Translation coverage tests
+│   └── navigation.test.mjs     # Sidebar placement and controls
 ├── Dockerfile                  # Optional container that runs the recorder
 ├── start-windows.cmd           # Windows launcher for the server
 ├── start.command               # macOS launcher for the server

@@ -4,7 +4,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {readHistory} from './history.mjs';
 const root=path.dirname(fileURLToPath(import.meta.url));
-const routes={'/':'index.html','/index.html':'index.html','/style.css':'style.css','/app.js':'app.js','/model.js':'model.js','/config.js':'config.js','/i18n.js':'i18n.js','/assets/starter-house.svg':'assets/starter-house.svg'};
+const routes={'/':'index.html','/index.html':'index.html','/style.css':'style.css','/app.js':'app.js','/model.js':'model.js','/config.js':'config.js','/i18n.js':'i18n.js','/theme-init.js':'theme-init.js','/assets/starter-house.svg':'assets/starter-house.svg'};
 export function createServer({historyFile=path.join(root,'data/history.json')}={}){
  return http.createServer((req,res)=>{
   const send=(status,body,type='text/plain; charset=utf-8')=>{res.writeHead(status,{'Content-Type':type,'Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Content-Security-Policy':"default-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'none'"});res.end(req.method==='HEAD'?undefined:body)};

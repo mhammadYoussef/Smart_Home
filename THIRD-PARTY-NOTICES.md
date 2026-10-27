@@ -3,7 +3,7 @@
 The distributable has been assembled from an explicit file list, not a copy of the personal project.
 
 - **Application code and documentation:** newly authored for this starter. Its design and measurement rules are inspired by the personal PRMGR build. No recovered frontend modules with embedded personal configuration are shipped.
-- **House illustration:** `public/assets/starter-house.svg` is new, generic vector artwork authored for this package. It is included under MIT. It is not Peter’s house, an archived screenshot, or third-party stock art.
+- **House illustration:** `public/assets/starter-house.svg` is new, generic vector artwork authored for this package. Smart Home recoloured it for its dark theme and added a day-coloured copy, `public/assets/starter-house-light.svg`, with the same geometry and the same license. It is included under MIT. It is not Peter’s house, an archived screenshot, or third-party stock art.
 - **Fonts:** system font stacks only. No downloaded fonts or font files.
 - **Icons:** simple text/Unicode symbols, rendered by the user’s system fonts. No third-party icon library.
 - **Data:** synthetic examples only. No personal telemetry, device inventories, cameras, account IDs, pairing information or saved login files.
