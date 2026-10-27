@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+data/
+*.local.*
+.env*
+release/*.zip
+release/*.sha256
+release/verification.json

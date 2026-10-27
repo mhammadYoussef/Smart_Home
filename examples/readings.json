@@ -1,0 +1,3763 @@
+{
+  "schemaVersion": 1,
+  "source": "Synthetic demo · not a real home",
+  "samples": [
+    {
+      "at": "2026-10-24T18:05:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": 1110,
+        "batterySOC": 52,
+        "hotWater": 47,
+        "outdoor": 8.9,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T18:10:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1337,
+        "garage": 310,
+        "gridNet": 1337,
+        "batterySOC": 52,
+        "hotWater": 47.3,
+        "outdoor": 8.8,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T18:15:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1563,
+        "garage": 360,
+        "gridNet": 1563,
+        "batterySOC": 53,
+        "hotWater": 47.6,
+        "outdoor": 8.7,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T18:20:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1783,
+        "garage": 409,
+        "gridNet": 1783,
+        "batterySOC": 53,
+        "hotWater": 47.8,
+        "outdoor": 8.6,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T18:25:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1995,
+        "garage": 457,
+        "gridNet": 1995,
+        "batterySOC": 53,
+        "hotWater": 48.1,
+        "outdoor": 8.5,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T18:30:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2198,
+        "garage": 504,
+        "gridNet": 2198,
+        "batterySOC": 54,
+        "hotWater": 48.4,
+        "outdoor": 8.3,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T18:35:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2388,
+        "garage": 549,
+        "gridNet": 2388,
+        "batterySOC": 54,
+        "hotWater": 48.6,
+        "outdoor": 8.2,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T18:40:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2566,
+        "garage": 593,
+        "gridNet": 2566,
+        "batterySOC": 54,
+        "hotWater": 48.9,
+        "outdoor": 8.1,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T18:45:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2727,
+        "garage": 635,
+        "gridNet": 2727,
+        "batterySOC": 55,
+        "hotWater": 49.1,
+        "outdoor": 8,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T18:50:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2871,
+        "garage": 675,
+        "gridNet": 2871,
+        "batterySOC": 55,
+        "hotWater": 49.4,
+        "outdoor": 7.9,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T18:55:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2996,
+        "garage": 712,
+        "gridNet": 2996,
+        "batterySOC": 56,
+        "hotWater": 49.6,
+        "outdoor": 7.8,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T19:00:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 3101,
+        "garage": 747,
+        "gridNet": 3101,
+        "batterySOC": 56,
+        "hotWater": 49.9,
+        "outdoor": 7.7,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T19:05:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 3183,
+        "garage": 778,
+        "gridNet": 3183,
+        "batterySOC": 56,
+        "hotWater": 50.1,
+        "outdoor": 7.6,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T19:10:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 3244,
+        "garage": 807,
+        "gridNet": 3244,
+        "batterySOC": 57,
+        "hotWater": 50.3,
+        "outdoor": 7.5,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T19:15:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 3282,
+        "garage": 832,
+        "gridNet": 3282,
+        "batterySOC": 57,
+        "hotWater": 50.5,
+        "outdoor": 7.4,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T19:20:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 3297,
+        "garage": 854,
+        "gridNet": 3297,
+        "batterySOC": 57,
+        "hotWater": 50.7,
+        "outdoor": 7.3,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T19:25:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 3289,
+        "garage": 873,
+        "gridNet": 3289,
+        "batterySOC": 58,
+        "hotWater": 50.9,
+        "outdoor": 7.2,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T19:30:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 3258,
+        "garage": 888,
+        "gridNet": 3258,
+        "batterySOC": 58,
+        "hotWater": 51.1,
+        "outdoor": 7.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T19:35:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 3204,
+        "garage": 899,
+        "gridNet": 3204,
+        "batterySOC": 58,
+        "hotWater": 51.2,
+        "outdoor": 7,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T19:40:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 3128,
+        "garage": 906,
+        "gridNet": 3128,
+        "batterySOC": 59,
+        "hotWater": 51.4,
+        "outdoor": 6.9,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T19:45:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 3032,
+        "garage": 910,
+        "gridNet": 3032,
+        "batterySOC": 59,
+        "hotWater": 51.5,
+        "outdoor": 6.8,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T19:50:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2916,
+        "garage": 909,
+        "gridNet": 2916,
+        "batterySOC": 59,
+        "hotWater": 51.6,
+        "outdoor": 6.7,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T19:55:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2782,
+        "garage": 905,
+        "gridNet": 2782,
+        "batterySOC": 60,
+        "hotWater": 51.7,
+        "outdoor": 6.6,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T20:00:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2632,
+        "garage": 897,
+        "gridNet": 2632,
+        "batterySOC": 60,
+        "hotWater": 51.8,
+        "outdoor": 6.5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T20:05:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2468,
+        "garage": 886,
+        "gridNet": 2468,
+        "batterySOC": 60,
+        "hotWater": 51.9,
+        "outdoor": 6.4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T20:10:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2289,
+        "garage": 870,
+        "gridNet": 2289,
+        "batterySOC": 61,
+        "hotWater": 51.9,
+        "outdoor": 6.3,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T20:15:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2101,
+        "garage": 851,
+        "gridNet": 2101,
+        "batterySOC": 61,
+        "hotWater": 52,
+        "outdoor": 6.2,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T20:20:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1905,
+        "garage": 829,
+        "gridNet": 1905,
+        "batterySOC": 61,
+        "hotWater": 52,
+        "outdoor": 6.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T20:25:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1702,
+        "garage": 803,
+        "gridNet": 1702,
+        "batterySOC": 62,
+        "hotWater": 52,
+        "outdoor": 6,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T20:30:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1624,
+        "garage": 774,
+        "gridNet": 1624,
+        "batterySOC": 62,
+        "hotWater": 52,
+        "outdoor": 6,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T20:35:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1591,
+        "garage": 741,
+        "gridNet": 1591,
+        "batterySOC": 62,
+        "hotWater": 52,
+        "outdoor": 5.9,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T20:40:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1556,
+        "garage": 706,
+        "gridNet": 1556,
+        "batterySOC": 63,
+        "hotWater": 51.9,
+        "outdoor": 5.8,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T20:45:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1519,
+        "garage": 669,
+        "gridNet": 1519,
+        "batterySOC": 63,
+        "hotWater": 51.9,
+        "outdoor": 5.7,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T20:50:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1479,
+        "garage": 629,
+        "gridNet": 1479,
+        "batterySOC": 63,
+        "hotWater": 51.8,
+        "outdoor": 5.6,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T20:55:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1436,
+        "garage": 586,
+        "gridNet": 1436,
+        "batterySOC": 64,
+        "hotWater": 51.7,
+        "outdoor": 5.5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T21:00:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1392,
+        "garage": 542,
+        "gridNet": 1392,
+        "batterySOC": 64,
+        "hotWater": 51.7,
+        "outdoor": 5.5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T21:05:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1346,
+        "garage": 496,
+        "gridNet": 1346,
+        "batterySOC": 64,
+        "hotWater": 51.5,
+        "outdoor": 5.4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T21:10:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1299,
+        "garage": 449,
+        "gridNet": 1299,
+        "batterySOC": 65,
+        "hotWater": 51.4,
+        "outdoor": 5.3,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T21:15:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1251,
+        "garage": 401,
+        "gridNet": 1251,
+        "batterySOC": 65,
+        "hotWater": 51.3,
+        "outdoor": 5.2,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T21:20:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1202,
+        "garage": 352,
+        "gridNet": 1202,
+        "batterySOC": 65,
+        "hotWater": 51.1,
+        "outdoor": 5.2,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T21:25:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1152,
+        "garage": 302,
+        "gridNet": 1152,
+        "batterySOC": 66,
+        "hotWater": 51,
+        "outdoor": 5.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T21:30:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": 1110,
+        "batterySOC": 66,
+        "hotWater": 50.8,
+        "outdoor": 5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T21:35:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": 1110,
+        "batterySOC": 66,
+        "hotWater": 50.6,
+        "outdoor": 5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T21:40:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": 1110,
+        "batterySOC": 66,
+        "hotWater": 50.4,
+        "outdoor": 4.9,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T21:45:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": 1110,
+        "batterySOC": 67,
+        "hotWater": 50.2,
+        "outdoor": 4.8,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T21:50:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": 1110,
+        "batterySOC": 67,
+        "hotWater": 50,
+        "outdoor": 4.8,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T21:55:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": 1110,
+        "batterySOC": 67,
+        "hotWater": 49.8,
+        "outdoor": 4.7,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T22:00:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": 1110,
+        "batterySOC": 68,
+        "hotWater": 49.5,
+        "outdoor": 4.7,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T22:05:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": 1110,
+        "batterySOC": 68,
+        "hotWater": 49.3,
+        "outdoor": 4.6,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T22:10:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": 1110,
+        "batterySOC": 68,
+        "hotWater": 49,
+        "outdoor": 4.6,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T22:15:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": 1110,
+        "batterySOC": 68,
+        "hotWater": 48.8,
+        "outdoor": 4.5,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T22:20:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": 1110,
+        "batterySOC": 69,
+        "hotWater": 48.5,
+        "outdoor": 4.5,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T22:25:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": 1110,
+        "batterySOC": 69,
+        "hotWater": 48.3,
+        "outdoor": 4.4,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T22:30:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": 1110,
+        "batterySOC": 69,
+        "hotWater": 48,
+        "outdoor": 4.4,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T22:35:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": 1110,
+        "batterySOC": 69,
+        "hotWater": 47.7,
+        "outdoor": 4.3,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T22:40:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": 1110,
+        "batterySOC": 70,
+        "hotWater": 47.4,
+        "outdoor": 4.3,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T22:45:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": 1110,
+        "batterySOC": 70,
+        "hotWater": 47.2,
+        "outdoor": 4.3,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T22:50:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1190,
+        "garage": 260,
+        "gridNet": 1190,
+        "batterySOC": 70,
+        "hotWater": 46.9,
+        "outdoor": 4.2,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T22:55:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1367,
+        "garage": 260,
+        "gridNet": 1367,
+        "batterySOC": 70,
+        "hotWater": 46.6,
+        "outdoor": 4.2,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-24T23:00:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1540,
+        "garage": 260,
+        "gridNet": 1540,
+        "batterySOC": 71,
+        "hotWater": 46.3,
+        "outdoor": 4.2,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T23:05:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1709,
+        "garage": 260,
+        "gridNet": 1709,
+        "batterySOC": 71,
+        "hotWater": 46,
+        "outdoor": 4.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T23:10:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1869,
+        "garage": 260,
+        "gridNet": 1869,
+        "batterySOC": 71,
+        "hotWater": 45.8,
+        "outdoor": 4.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T23:15:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2021,
+        "garage": 260,
+        "gridNet": 2021,
+        "batterySOC": 71,
+        "hotWater": 45.5,
+        "outdoor": 4.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T23:20:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2161,
+        "garage": 260,
+        "gridNet": 2161,
+        "batterySOC": 72,
+        "hotWater": 45.2,
+        "outdoor": 4.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T23:25:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2288,
+        "garage": 260,
+        "gridNet": 2288,
+        "batterySOC": 72,
+        "hotWater": 45,
+        "outdoor": 4.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T23:30:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2401,
+        "garage": 260,
+        "gridNet": 2401,
+        "batterySOC": 72,
+        "hotWater": 44.7,
+        "outdoor": 4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T23:35:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2498,
+        "garage": 260,
+        "gridNet": 2498,
+        "batterySOC": 72,
+        "hotWater": 44.5,
+        "outdoor": 4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T23:40:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2578,
+        "garage": 260,
+        "gridNet": 2578,
+        "batterySOC": 72,
+        "hotWater": 44.3,
+        "outdoor": 4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T23:45:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2639,
+        "garage": 260,
+        "gridNet": 2639,
+        "batterySOC": 73,
+        "hotWater": 44,
+        "outdoor": 4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T23:50:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2682,
+        "garage": 260,
+        "gridNet": 2682,
+        "batterySOC": 73,
+        "hotWater": 43.8,
+        "outdoor": 4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-24T23:55:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2705,
+        "garage": 260,
+        "gridNet": 2705,
+        "batterySOC": 73,
+        "hotWater": 43.6,
+        "outdoor": 4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T00:00:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2709,
+        "garage": 260,
+        "gridNet": 2709,
+        "batterySOC": 73,
+        "hotWater": 43.4,
+        "outdoor": 4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T00:05:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2693,
+        "garage": 260,
+        "gridNet": 2693,
+        "batterySOC": 73,
+        "hotWater": 43.2,
+        "outdoor": 4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T00:10:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2657,
+        "garage": 260,
+        "gridNet": 2657,
+        "batterySOC": 74,
+        "hotWater": 43,
+        "outdoor": 4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T00:15:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2603,
+        "garage": 260,
+        "gridNet": 2603,
+        "batterySOC": 74,
+        "hotWater": 42.9,
+        "outdoor": 4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T00:20:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2530,
+        "garage": 260,
+        "gridNet": 2530,
+        "batterySOC": 74,
+        "hotWater": 42.7,
+        "outdoor": 4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T00:25:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2439,
+        "garage": 260,
+        "gridNet": 2439,
+        "batterySOC": 74,
+        "hotWater": 42.6,
+        "outdoor": 4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T00:30:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2332,
+        "garage": 260,
+        "gridNet": 2332,
+        "batterySOC": 74,
+        "hotWater": 42.5,
+        "outdoor": 4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T00:35:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2210,
+        "garage": 260,
+        "gridNet": 2210,
+        "batterySOC": 74,
+        "hotWater": 42.4,
+        "outdoor": 4.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T00:40:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2074,
+        "garage": 260,
+        "gridNet": 2074,
+        "batterySOC": 75,
+        "hotWater": 42.3,
+        "outdoor": 4.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T00:45:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1927,
+        "garage": 260,
+        "gridNet": 1927,
+        "batterySOC": 75,
+        "hotWater": 42.2,
+        "outdoor": 4.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T00:50:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1769,
+        "garage": 260,
+        "gridNet": 1769,
+        "batterySOC": 75,
+        "hotWater": 42.1,
+        "outdoor": 4.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T00:55:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1620,
+        "garage": 276,
+        "gridNet": 1620,
+        "batterySOC": 75,
+        "hotWater": 42.1,
+        "outdoor": 4.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T01:00:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1498,
+        "garage": 326,
+        "gridNet": 1498,
+        "batterySOC": 75,
+        "hotWater": 42,
+        "outdoor": 4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T01:05:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1371,
+        "garage": 375,
+        "gridNet": 1371,
+        "batterySOC": 75,
+        "hotWater": 42,
+        "outdoor": 4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T01:10:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1274,
+        "garage": 424,
+        "gridNet": 1274,
+        "batterySOC": 75,
+        "hotWater": 42,
+        "outdoor": 4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T01:15:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1322,
+        "garage": 472,
+        "gridNet": 1322,
+        "batterySOC": 76,
+        "hotWater": 42,
+        "outdoor": 4,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T01:20:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1369,
+        "garage": 519,
+        "gridNet": 1369,
+        "batterySOC": 76,
+        "hotWater": 42,
+        "outdoor": 4,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T01:25:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1414,
+        "garage": 564,
+        "gridNet": 1414,
+        "batterySOC": 76,
+        "hotWater": 42.1,
+        "outdoor": 4,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T01:30:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1457,
+        "garage": 607,
+        "gridNet": 1457,
+        "batterySOC": 76,
+        "hotWater": 42.1,
+        "outdoor": 4,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T01:35:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1498,
+        "garage": 648,
+        "gridNet": 1498,
+        "batterySOC": 76,
+        "hotWater": 42.2,
+        "outdoor": 4.1,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T01:40:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1537,
+        "garage": 687,
+        "gridNet": 1537,
+        "batterySOC": 76,
+        "hotWater": 42.3,
+        "outdoor": 4.1,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T01:45:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1573,
+        "garage": 723,
+        "gridNet": 1573,
+        "batterySOC": 76,
+        "hotWater": 42.4,
+        "outdoor": 4.1,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T01:50:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1607,
+        "garage": 757,
+        "gridNet": 1607,
+        "batterySOC": 76,
+        "hotWater": 42.5,
+        "outdoor": 4.1,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T01:55:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1638,
+        "garage": 788,
+        "gridNet": 1638,
+        "batterySOC": 76,
+        "hotWater": 42.6,
+        "outdoor": 4.1,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T02:00:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1665,
+        "garage": 815,
+        "gridNet": 1665,
+        "batterySOC": 76,
+        "hotWater": 42.8,
+        "outdoor": 4.2,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T02:05:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1690,
+        "garage": 840,
+        "gridNet": 1690,
+        "batterySOC": 77,
+        "hotWater": 42.9,
+        "outdoor": 4.2,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T02:10:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1711,
+        "garage": 861,
+        "gridNet": 1711,
+        "batterySOC": 77,
+        "hotWater": 43.1,
+        "outdoor": 4.2,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T02:15:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1728,
+        "garage": 878,
+        "gridNet": 1728,
+        "batterySOC": 77,
+        "hotWater": 43.3,
+        "outdoor": 4.3,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T02:20:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1742,
+        "garage": 892,
+        "gridNet": 1742,
+        "batterySOC": 77,
+        "hotWater": 43.5,
+        "outdoor": 4.3,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T02:25:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1752,
+        "garage": 902,
+        "gridNet": 1752,
+        "batterySOC": 77,
+        "hotWater": 43.7,
+        "outdoor": 4.3,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T02:30:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1758,
+        "garage": 908,
+        "gridNet": 1758,
+        "batterySOC": 77,
+        "hotWater": 43.9,
+        "outdoor": 4.4,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T02:35:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1760,
+        "garage": 910,
+        "gridNet": 1760,
+        "batterySOC": 77,
+        "hotWater": 44.1,
+        "outdoor": 4.4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T02:40:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1758,
+        "garage": 908,
+        "gridNet": 1758,
+        "batterySOC": 77,
+        "hotWater": 44.3,
+        "outdoor": 4.5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T02:45:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1753,
+        "garage": 903,
+        "gridNet": 1753,
+        "batterySOC": 77,
+        "hotWater": 44.6,
+        "outdoor": 4.5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T02:50:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1744,
+        "garage": 894,
+        "gridNet": 1744,
+        "batterySOC": 77,
+        "hotWater": 44.8,
+        "outdoor": 4.6,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T02:55:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1731,
+        "garage": 881,
+        "gridNet": 1731,
+        "batterySOC": 77,
+        "hotWater": 45.1,
+        "outdoor": 4.6,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T03:00:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1714,
+        "garage": 864,
+        "gridNet": 1714,
+        "batterySOC": 77,
+        "hotWater": 45.3,
+        "outdoor": 4.7,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T03:05:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1694,
+        "garage": 844,
+        "gridNet": 1694,
+        "batterySOC": 77,
+        "hotWater": 45.6,
+        "outdoor": 4.7,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T03:10:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1671,
+        "garage": 821,
+        "gridNet": 1671,
+        "batterySOC": 77,
+        "hotWater": 45.9,
+        "outdoor": 4.8,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T03:15:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1644,
+        "garage": 794,
+        "gridNet": 1644,
+        "batterySOC": 77,
+        "hotWater": 46.1,
+        "outdoor": 4.8,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T03:20:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1614,
+        "garage": 764,
+        "gridNet": 1614,
+        "batterySOC": 77,
+        "hotWater": 46.4,
+        "outdoor": 4.9,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T03:25:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1581,
+        "garage": 731,
+        "gridNet": 1581,
+        "batterySOC": 77,
+        "hotWater": 46.7,
+        "outdoor": 5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T03:30:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1545,
+        "garage": 695,
+        "gridNet": 1545,
+        "batterySOC": 77,
+        "hotWater": 47,
+        "outdoor": 5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T03:35:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1666,
+        "garage": 656,
+        "gridNet": 1666,
+        "batterySOC": 77,
+        "hotWater": 47.3,
+        "outdoor": 5.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T03:40:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1801,
+        "garage": 615,
+        "gridNet": 1801,
+        "batterySOC": 77,
+        "hotWater": 47.5,
+        "outdoor": 5.2,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T03:45:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1930,
+        "garage": 573,
+        "gridNet": 1930,
+        "batterySOC": 77,
+        "hotWater": 47.8,
+        "outdoor": 5.2,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T03:50:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2050,
+        "garage": 528,
+        "gridNet": 2050,
+        "batterySOC": 77,
+        "hotWater": 48.1,
+        "outdoor": 5.3,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T03:55:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2161,
+        "garage": 482,
+        "gridNet": 2161,
+        "batterySOC": 77,
+        "hotWater": 48.3,
+        "outdoor": 5.4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T04:00:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2260,
+        "garage": 434,
+        "gridNet": 2260,
+        "batterySOC": 77,
+        "hotWater": 48.6,
+        "outdoor": 5.5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T04:05:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2345,
+        "garage": 385,
+        "gridNet": 2345,
+        "batterySOC": 77,
+        "hotWater": 48.9,
+        "outdoor": 5.5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T04:10:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2417,
+        "garage": 336,
+        "gridNet": 2417,
+        "batterySOC": 77,
+        "hotWater": 49.1,
+        "outdoor": 5.6,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T04:15:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2473,
+        "garage": 286,
+        "gridNet": 2473,
+        "batterySOC": 77,
+        "hotWater": 49.4,
+        "outdoor": 5.7,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T04:20:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2536,
+        "garage": 260,
+        "gridNet": 2536,
+        "batterySOC": 77,
+        "hotWater": 49.6,
+        "outdoor": 5.8,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T04:25:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2608,
+        "garage": 260,
+        "gridNet": 2608,
+        "batterySOC": 76,
+        "hotWater": 49.8,
+        "outdoor": 5.9,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T04:30:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2661,
+        "garage": 260,
+        "gridNet": 2661,
+        "batterySOC": 76,
+        "hotWater": 50.1,
+        "outdoor": 6,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T04:35:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2695,
+        "garage": 260,
+        "gridNet": 2695,
+        "batterySOC": 76,
+        "hotWater": 50.3,
+        "outdoor": 6,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T04:40:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2709,
+        "garage": 260,
+        "gridNet": 2709,
+        "batterySOC": 76,
+        "hotWater": 50.5,
+        "outdoor": 6.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T04:45:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2704,
+        "garage": 260,
+        "gridNet": 2704,
+        "batterySOC": 76,
+        "hotWater": 50.7,
+        "outdoor": 6.2,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T04:50:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2679,
+        "garage": 260,
+        "gridNet": 2679,
+        "batterySOC": 76,
+        "hotWater": 50.9,
+        "outdoor": 6.3,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T04:55:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2635,
+        "garage": 260,
+        "gridNet": 2635,
+        "batterySOC": 76,
+        "hotWater": 51,
+        "outdoor": 6.4,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T05:00:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 2572,
+        "garage": 260,
+        "gridNet": 2572,
+        "batterySOC": 76,
+        "hotWater": 51.2,
+        "outdoor": 6.5,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T05:05:00.000Z",
+      "values": {
+        "solar": 118,
+        "siteLoad": 2491,
+        "garage": 260,
+        "gridNet": 2373,
+        "batterySOC": 76,
+        "hotWater": 51.3,
+        "outdoor": 6.6,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T05:10:00.000Z",
+      "values": {
+        "solar": 236,
+        "siteLoad": 2393,
+        "garage": 260,
+        "gridNet": 2157,
+        "batterySOC": 76,
+        "hotWater": 51.5,
+        "outdoor": 6.7,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T05:15:00.000Z",
+      "values": {
+        "solar": 353,
+        "siteLoad": 2279,
+        "garage": 260,
+        "gridNet": 1926,
+        "batterySOC": 76,
+        "hotWater": 51.6,
+        "outdoor": 6.8,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T05:20:00.000Z",
+      "values": {
+        "solar": 471,
+        "siteLoad": 2150,
+        "garage": 260,
+        "gridNet": 1679,
+        "batterySOC": 75,
+        "hotWater": 51.7,
+        "outdoor": 6.9,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T05:25:00.000Z",
+      "values": {
+        "solar": 588,
+        "siteLoad": 2009,
+        "garage": 260,
+        "gridNet": 1421,
+        "batterySOC": 75,
+        "hotWater": 51.8,
+        "outdoor": 7,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T05:30:00.000Z",
+      "values": {
+        "solar": 705,
+        "siteLoad": 1857,
+        "garage": 260,
+        "gridNet": 1152,
+        "batterySOC": 75,
+        "hotWater": 51.9,
+        "outdoor": 7.1,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T05:35:00.000Z",
+      "values": {
+        "solar": 821,
+        "siteLoad": 1695,
+        "garage": 260,
+        "gridNet": 874,
+        "batterySOC": 75,
+        "hotWater": 51.9,
+        "outdoor": 7.2,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T05:40:00.000Z",
+      "values": {
+        "solar": 938,
+        "siteLoad": 1527,
+        "garage": 260,
+        "gridNet": 589,
+        "batterySOC": 75,
+        "hotWater": 52,
+        "outdoor": 7.3,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T05:45:00.000Z",
+      "values": {
+        "solar": 1053,
+        "siteLoad": 1353,
+        "garage": 260,
+        "gridNet": 300,
+        "batterySOC": 75,
+        "hotWater": 52,
+        "outdoor": 7.4,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T05:50:00.000Z",
+      "values": {
+        "solar": 1169,
+        "siteLoad": 1176,
+        "garage": 260,
+        "gridNet": 7,
+        "batterySOC": 75,
+        "hotWater": 52,
+        "outdoor": 7.5,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T05:55:00.000Z",
+      "values": {
+        "solar": 1284,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -174,
+        "batterySOC": 74,
+        "hotWater": 52,
+        "outdoor": 7.6,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T06:00:00.000Z",
+      "values": {
+        "solar": 1398,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -288,
+        "batterySOC": 74,
+        "hotWater": 52,
+        "outdoor": 7.7,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T06:05:00.000Z",
+      "values": {
+        "solar": 1511,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -401,
+        "batterySOC": 74,
+        "hotWater": 51.9,
+        "outdoor": 7.8,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T06:10:00.000Z",
+      "values": {
+        "solar": 1624,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -514,
+        "batterySOC": 74,
+        "hotWater": 51.9,
+        "outdoor": 7.9,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T06:15:00.000Z",
+      "values": {
+        "solar": 1736,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -626,
+        "batterySOC": 74,
+        "hotWater": 51.8,
+        "outdoor": 8,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T06:20:00.000Z",
+      "values": {
+        "solar": 1847,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -737,
+        "batterySOC": 74,
+        "hotWater": 51.8,
+        "outdoor": 8.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T06:25:00.000Z",
+      "values": {
+        "solar": 1957,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -847,
+        "batterySOC": 73,
+        "hotWater": 51.7,
+        "outdoor": 8.2,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T06:30:00.000Z",
+      "values": {
+        "solar": 2066,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -956,
+        "batterySOC": 73,
+        "hotWater": 51.6,
+        "outdoor": 8.3,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T06:35:00.000Z",
+      "values": {
+        "solar": 2175,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -1065,
+        "batterySOC": 73,
+        "hotWater": 51.4,
+        "outdoor": 8.5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T06:40:00.000Z",
+      "values": {
+        "solar": 2282,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -1172,
+        "batterySOC": 73,
+        "hotWater": 51.3,
+        "outdoor": 8.6,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T06:45:00.000Z",
+      "values": {
+        "solar": 2388,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -1278,
+        "batterySOC": 73,
+        "hotWater": 51.2,
+        "outdoor": 8.7,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T06:50:00.000Z",
+      "values": {
+        "solar": 2493,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -1383,
+        "batterySOC": 72,
+        "hotWater": 51,
+        "outdoor": 8.8,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T06:55:00.000Z",
+      "values": {
+        "solar": 2597,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -1487,
+        "batterySOC": 72,
+        "hotWater": 50.8,
+        "outdoor": 8.9,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T07:00:00.000Z",
+      "values": {
+        "solar": 2700,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -1590,
+        "batterySOC": 72,
+        "hotWater": 50.6,
+        "outdoor": 9,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T07:05:00.000Z",
+      "values": {
+        "solar": 2801,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -1691,
+        "batterySOC": 72,
+        "hotWater": 50.4,
+        "outdoor": 9.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T07:10:00.000Z",
+      "values": {
+        "solar": 2901,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -1791,
+        "batterySOC": 72,
+        "hotWater": 50.2,
+        "outdoor": 9.2,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T07:15:00.000Z",
+      "values": {
+        "solar": 3000,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -1890,
+        "batterySOC": 71,
+        "hotWater": 50,
+        "outdoor": 9.3,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T07:20:00.000Z",
+      "values": {
+        "solar": 3097,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -1987,
+        "batterySOC": 71,
+        "hotWater": 49.8,
+        "outdoor": 9.4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T07:25:00.000Z",
+      "values": {
+        "solar": 3193,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -2083,
+        "batterySOC": 71,
+        "hotWater": 49.6,
+        "outdoor": 9.5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T07:30:00.000Z",
+      "values": {
+        "solar": 3287,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -2177,
+        "batterySOC": 71,
+        "hotWater": 49.3,
+        "outdoor": 9.7,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T07:35:00.000Z",
+      "values": {
+        "solar": 3380,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -2270,
+        "batterySOC": 70,
+        "hotWater": 49.1,
+        "outdoor": 9.8,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T07:40:00.000Z",
+      "values": {
+        "solar": 3471,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -2361,
+        "batterySOC": 70,
+        "hotWater": 48.8,
+        "outdoor": 9.9,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T07:45:00.000Z",
+      "values": {
+        "solar": 3560,
+        "siteLoad": 1142,
+        "garage": 292,
+        "gridNet": -2418,
+        "batterySOC": 70,
+        "hotWater": 48.5,
+        "outdoor": 10,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T07:50:00.000Z",
+      "values": {
+        "solar": 3648,
+        "siteLoad": 1192,
+        "garage": 342,
+        "gridNet": -2456,
+        "batterySOC": 70,
+        "hotWater": 48.3,
+        "outdoor": 10.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T07:55:00.000Z",
+      "values": {
+        "solar": 3734,
+        "siteLoad": 1241,
+        "garage": 391,
+        "gridNet": -2493,
+        "batterySOC": 69,
+        "hotWater": 48,
+        "outdoor": 10.2,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T08:00:00.000Z",
+      "values": {
+        "solar": 3818,
+        "siteLoad": 1289,
+        "garage": 439,
+        "gridNet": -2529,
+        "batterySOC": 69,
+        "hotWater": 47.7,
+        "outdoor": 10.3,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T08:05:00.000Z",
+      "values": {
+        "solar": 3901,
+        "siteLoad": 1337,
+        "garage": 487,
+        "gridNet": -2564,
+        "batterySOC": 69,
+        "hotWater": 47.5,
+        "outdoor": 10.4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T08:10:00.000Z",
+      "values": {
+        "solar": 3981,
+        "siteLoad": 1383,
+        "garage": 533,
+        "gridNet": -2598,
+        "batterySOC": 69,
+        "hotWater": 47.2,
+        "outdoor": 10.5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T08:15:00.000Z",
+      "values": {
+        "solar": 4060,
+        "siteLoad": 1491,
+        "garage": 578,
+        "gridNet": -2569,
+        "batterySOC": 68,
+        "hotWater": 46.9,
+        "outdoor": 10.6,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T08:20:00.000Z",
+      "values": {
+        "solar": 4137,
+        "siteLoad": 1710,
+        "garage": 620,
+        "gridNet": -2427,
+        "batterySOC": 68,
+        "hotWater": 46.6,
+        "outdoor": 10.7,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T08:25:00.000Z",
+      "values": {
+        "solar": 4211,
+        "siteLoad": 1925,
+        "garage": 661,
+        "gridNet": -2286,
+        "batterySOC": 68,
+        "hotWater": 46.3,
+        "outdoor": 10.8,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T08:30:00.000Z",
+      "values": {
+        "solar": null,
+        "siteLoad": null,
+        "garage": null,
+        "gridNet": null,
+        "batterySOC": 68,
+        "hotWater": null,
+        "outdoor": 10.9,
+        "compressor": null
+      }
+    },
+    {
+      "at": "2026-10-25T08:35:00.000Z",
+      "values": {
+        "solar": null,
+        "siteLoad": null,
+        "garage": null,
+        "gridNet": null,
+        "batterySOC": 67,
+        "hotWater": null,
+        "outdoor": 11,
+        "compressor": null
+      }
+    },
+    {
+      "at": "2026-10-25T08:40:00.000Z",
+      "values": {
+        "solar": null,
+        "siteLoad": null,
+        "garage": null,
+        "gridNet": null,
+        "batterySOC": 67,
+        "hotWater": null,
+        "outdoor": 11.1,
+        "compressor": null
+      }
+    },
+    {
+      "at": "2026-10-25T08:45:00.000Z",
+      "values": {
+        "solar": null,
+        "siteLoad": null,
+        "garage": null,
+        "gridNet": null,
+        "batterySOC": 67,
+        "hotWater": null,
+        "outdoor": 11.2,
+        "compressor": null
+      }
+    },
+    {
+      "at": "2026-10-25T08:50:00.000Z",
+      "values": {
+        "solar": 4554,
+        "siteLoad": 2841,
+        "garage": 824,
+        "gridNet": -1713,
+        "batterySOC": 66,
+        "hotWater": 45,
+        "outdoor": 11.3,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T08:55:00.000Z",
+      "values": {
+        "solar": 4617,
+        "siteLoad": 2978,
+        "garage": 847,
+        "gridNet": -1639,
+        "batterySOC": 66,
+        "hotWater": 44.8,
+        "outdoor": 11.4,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T09:00:00.000Z",
+      "values": {
+        "solar": 4677,
+        "siteLoad": 3095,
+        "garage": 866,
+        "gridNet": -1582,
+        "batterySOC": 66,
+        "hotWater": 44.5,
+        "outdoor": 11.5,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T09:05:00.000Z",
+      "values": {
+        "solar": 4734,
+        "siteLoad": 3194,
+        "garage": 883,
+        "gridNet": -1540,
+        "batterySOC": 65,
+        "hotWater": 44.3,
+        "outdoor": 11.6,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T09:10:00.000Z",
+      "values": {
+        "solar": 4790,
+        "siteLoad": 3269,
+        "garage": 895,
+        "gridNet": -1521,
+        "batterySOC": 65,
+        "hotWater": 44.1,
+        "outdoor": 11.7,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T09:15:00.000Z",
+      "values": {
+        "solar": 4843,
+        "siteLoad": 3323,
+        "garage": 904,
+        "gridNet": -1520,
+        "batterySOC": 65,
+        "hotWater": 43.8,
+        "outdoor": 11.8,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T09:20:00.000Z",
+      "values": {
+        "solar": 4894,
+        "siteLoad": 3353,
+        "garage": 909,
+        "gridNet": -1541,
+        "batterySOC": 65,
+        "hotWater": 43.6,
+        "outdoor": 11.9,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T09:25:00.000Z",
+      "values": {
+        "solar": 4943,
+        "siteLoad": 3360,
+        "garage": 910,
+        "gridNet": -1583,
+        "batterySOC": 64,
+        "hotWater": 43.4,
+        "outdoor": 12,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T09:30:00.000Z",
+      "values": {
+        "solar": 4989,
+        "siteLoad": 3342,
+        "garage": 907,
+        "gridNet": -1647,
+        "batterySOC": 64,
+        "hotWater": 43.2,
+        "outdoor": 12,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T09:35:00.000Z",
+      "values": {
+        "solar": 5033,
+        "siteLoad": 3303,
+        "garage": 901,
+        "gridNet": -1730,
+        "batterySOC": 64,
+        "hotWater": 43.1,
+        "outdoor": 12.1,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T09:40:00.000Z",
+      "values": {
+        "solar": 5074,
+        "siteLoad": 3239,
+        "garage": 890,
+        "gridNet": -1835,
+        "batterySOC": 63,
+        "hotWater": 42.9,
+        "outdoor": 12.2,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T09:45:00.000Z",
+      "values": {
+        "solar": 5113,
+        "siteLoad": 3154,
+        "garage": 876,
+        "gridNet": -1959,
+        "batterySOC": 63,
+        "hotWater": 42.7,
+        "outdoor": 12.3,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T09:50:00.000Z",
+      "values": {
+        "solar": 5150,
+        "siteLoad": 3047,
+        "garage": 858,
+        "gridNet": -2103,
+        "batterySOC": 63,
+        "hotWater": 42.6,
+        "outdoor": 12.4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T09:55:00.000Z",
+      "values": {
+        "solar": 5184,
+        "siteLoad": 2920,
+        "garage": 837,
+        "gridNet": -2264,
+        "batterySOC": 62,
+        "hotWater": 42.5,
+        "outdoor": 12.5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T10:00:00.000Z",
+      "values": {
+        "solar": 5216,
+        "siteLoad": 2775,
+        "garage": 812,
+        "gridNet": -2441,
+        "batterySOC": 62,
+        "hotWater": 42.4,
+        "outdoor": 12.5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T10:05:00.000Z",
+      "values": {
+        "solar": 5245,
+        "siteLoad": 2612,
+        "garage": 784,
+        "gridNet": -2633,
+        "batterySOC": 62,
+        "hotWater": 42.3,
+        "outdoor": 12.6,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T10:10:00.000Z",
+      "values": {
+        "solar": 5272,
+        "siteLoad": 2435,
+        "garage": 753,
+        "gridNet": -2837,
+        "batterySOC": 61,
+        "hotWater": 42.2,
+        "outdoor": 12.7,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T10:15:00.000Z",
+      "values": {
+        "solar": 5296,
+        "siteLoad": 2244,
+        "garage": 719,
+        "gridNet": -3052,
+        "batterySOC": 61,
+        "hotWater": 42.1,
+        "outdoor": 12.8,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T10:20:00.000Z",
+      "values": {
+        "solar": 5318,
+        "siteLoad": 2043,
+        "garage": 683,
+        "gridNet": -3275,
+        "batterySOC": 61,
+        "hotWater": 42.1,
+        "outdoor": 12.8,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T10:25:00.000Z",
+      "values": {
+        "solar": 5337,
+        "siteLoad": 1832,
+        "garage": 643,
+        "gridNet": -3505,
+        "batterySOC": 60,
+        "hotWater": 42,
+        "outdoor": 12.9,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T10:30:00.000Z",
+      "values": {
+        "solar": 5354,
+        "siteLoad": 1615,
+        "garage": 602,
+        "gridNet": -3739,
+        "batterySOC": 60,
+        "hotWater": 42,
+        "outdoor": 13,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T10:35:00.000Z",
+      "values": {
+        "solar": 5368,
+        "siteLoad": 1409,
+        "garage": 559,
+        "gridNet": -3959,
+        "batterySOC": 60,
+        "hotWater": 42,
+        "outdoor": 13,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T10:40:00.000Z",
+      "values": {
+        "solar": 5379,
+        "siteLoad": 1363,
+        "garage": 513,
+        "gridNet": -4016,
+        "batterySOC": 59,
+        "hotWater": 42,
+        "outdoor": 13.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T10:45:00.000Z",
+      "values": {
+        "solar": 5388,
+        "siteLoad": 1317,
+        "garage": 467,
+        "gridNet": -4071,
+        "batterySOC": 59,
+        "hotWater": 42,
+        "outdoor": 13.2,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T10:50:00.000Z",
+      "values": {
+        "solar": 5395,
+        "siteLoad": 1269,
+        "garage": 419,
+        "gridNet": -4126,
+        "batterySOC": 59,
+        "hotWater": 42.1,
+        "outdoor": 13.2,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T10:55:00.000Z",
+      "values": {
+        "solar": 5399,
+        "siteLoad": 1220,
+        "garage": 370,
+        "gridNet": -4179,
+        "batterySOC": 58,
+        "hotWater": 42.1,
+        "outdoor": 13.3,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T11:00:00.000Z",
+      "values": {
+        "solar": 5400,
+        "siteLoad": 1170,
+        "garage": 320,
+        "gridNet": -4230,
+        "batterySOC": 58,
+        "hotWater": 42.2,
+        "outdoor": 13.3,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T11:05:00.000Z",
+      "values": {
+        "solar": 5399,
+        "siteLoad": 1120,
+        "garage": 270,
+        "gridNet": -4279,
+        "batterySOC": 58,
+        "hotWater": 42.3,
+        "outdoor": 13.4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T11:10:00.000Z",
+      "values": {
+        "solar": 5395,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -4285,
+        "batterySOC": 57,
+        "hotWater": 42.4,
+        "outdoor": 13.4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T11:15:00.000Z",
+      "values": {
+        "solar": 5388,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -4278,
+        "batterySOC": 57,
+        "hotWater": 42.5,
+        "outdoor": 13.5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T11:20:00.000Z",
+      "values": {
+        "solar": 5379,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -4269,
+        "batterySOC": 57,
+        "hotWater": 42.6,
+        "outdoor": 13.5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T11:25:00.000Z",
+      "values": {
+        "solar": 5368,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -4258,
+        "batterySOC": 56,
+        "hotWater": 42.8,
+        "outdoor": 13.6,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T11:30:00.000Z",
+      "values": {
+        "solar": 5354,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -4244,
+        "batterySOC": 56,
+        "hotWater": 42.9,
+        "outdoor": 13.6,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T11:35:00.000Z",
+      "values": {
+        "solar": 5337,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -4227,
+        "batterySOC": 56,
+        "hotWater": 43.1,
+        "outdoor": 13.7,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T11:40:00.000Z",
+      "values": {
+        "solar": 5318,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -4208,
+        "batterySOC": 55,
+        "hotWater": 43.3,
+        "outdoor": 13.7,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T11:45:00.000Z",
+      "values": {
+        "solar": 5296,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -4186,
+        "batterySOC": 55,
+        "hotWater": 43.5,
+        "outdoor": 13.7,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T11:50:00.000Z",
+      "values": {
+        "solar": 5272,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -4162,
+        "batterySOC": 54,
+        "hotWater": 43.7,
+        "outdoor": 13.8,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T11:55:00.000Z",
+      "values": {
+        "solar": 5245,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -4135,
+        "batterySOC": 54,
+        "hotWater": 43.9,
+        "outdoor": 13.8,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T12:00:00.000Z",
+      "values": {
+        "solar": 5216,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -4106,
+        "batterySOC": 54,
+        "hotWater": 44.1,
+        "outdoor": 13.8,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T12:05:00.000Z",
+      "values": {
+        "solar": 5184,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -4074,
+        "batterySOC": 53,
+        "hotWater": 44.3,
+        "outdoor": 13.9,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T12:10:00.000Z",
+      "values": {
+        "solar": 5150,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -4040,
+        "batterySOC": 53,
+        "hotWater": 44.6,
+        "outdoor": 13.9,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T12:15:00.000Z",
+      "values": {
+        "solar": 5113,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -4003,
+        "batterySOC": 53,
+        "hotWater": 44.8,
+        "outdoor": 13.9,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T12:20:00.000Z",
+      "values": {
+        "solar": 5074,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -3964,
+        "batterySOC": 52,
+        "hotWater": 45.1,
+        "outdoor": 13.9,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T12:25:00.000Z",
+      "values": {
+        "solar": 5033,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -3923,
+        "batterySOC": 52,
+        "hotWater": 45.3,
+        "outdoor": 13.9,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T12:30:00.000Z",
+      "values": {
+        "solar": 4989,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -3879,
+        "batterySOC": 52,
+        "hotWater": 45.6,
+        "outdoor": 14,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T12:35:00.000Z",
+      "values": {
+        "solar": 4943,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -3833,
+        "batterySOC": 51,
+        "hotWater": 45.8,
+        "outdoor": 14,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T12:40:00.000Z",
+      "values": {
+        "solar": 4894,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -3784,
+        "batterySOC": 51,
+        "hotWater": 46.1,
+        "outdoor": 14,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T12:45:00.000Z",
+      "values": {
+        "solar": 4843,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -3733,
+        "batterySOC": 51,
+        "hotWater": 46.4,
+        "outdoor": 14,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T12:50:00.000Z",
+      "values": {
+        "solar": 4790,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -3680,
+        "batterySOC": 50,
+        "hotWater": 46.7,
+        "outdoor": 14,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T12:55:00.000Z",
+      "values": {
+        "solar": 4734,
+        "siteLoad": 1110,
+        "garage": 260,
+        "gridNet": -3624,
+        "batterySOC": 50,
+        "hotWater": 46.9,
+        "outdoor": 14,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T13:00:00.000Z",
+      "values": {
+        "solar": 4677,
+        "siteLoad": 1253,
+        "garage": 260,
+        "gridNet": -3424,
+        "batterySOC": 49,
+        "hotWater": 47.2,
+        "outdoor": 14,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T13:05:00.000Z",
+      "values": {
+        "solar": 4617,
+        "siteLoad": 1429,
+        "garage": 260,
+        "gridNet": -3188,
+        "batterySOC": 49,
+        "hotWater": 47.5,
+        "outdoor": 14,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T13:10:00.000Z",
+      "values": {
+        "solar": 4554,
+        "siteLoad": 1601,
+        "garage": 260,
+        "gridNet": -2953,
+        "batterySOC": 49,
+        "hotWater": 47.8,
+        "outdoor": 14,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T13:15:00.000Z",
+      "values": {
+        "solar": 4490,
+        "siteLoad": 1767,
+        "garage": 260,
+        "gridNet": -2723,
+        "batterySOC": 48,
+        "hotWater": 48,
+        "outdoor": 14,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T13:20:00.000Z",
+      "values": {
+        "solar": 4423,
+        "siteLoad": 1924,
+        "garage": 260,
+        "gridNet": -2499,
+        "batterySOC": 48,
+        "hotWater": 48.3,
+        "outdoor": 14,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T13:25:00.000Z",
+      "values": {
+        "solar": 4355,
+        "siteLoad": 2072,
+        "garage": 260,
+        "gridNet": -2283,
+        "batterySOC": 48,
+        "hotWater": 48.6,
+        "outdoor": 14,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T13:30:00.000Z",
+      "values": {
+        "solar": 4284,
+        "siteLoad": 2208,
+        "garage": 260,
+        "gridNet": -2076,
+        "batterySOC": 47,
+        "hotWater": 48.8,
+        "outdoor": 14,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T13:35:00.000Z",
+      "values": {
+        "solar": 4211,
+        "siteLoad": 2330,
+        "garage": 260,
+        "gridNet": -1881,
+        "batterySOC": 47,
+        "hotWater": 49.1,
+        "outdoor": 13.9,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T13:40:00.000Z",
+      "values": {
+        "solar": 4137,
+        "siteLoad": 2437,
+        "garage": 260,
+        "gridNet": -1700,
+        "batterySOC": 47,
+        "hotWater": 49.3,
+        "outdoor": 13.9,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T13:45:00.000Z",
+      "values": {
+        "solar": 4060,
+        "siteLoad": 2528,
+        "garage": 260,
+        "gridNet": -1532,
+        "batterySOC": 46,
+        "hotWater": 49.6,
+        "outdoor": 13.9,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T13:50:00.000Z",
+      "values": {
+        "solar": 3981,
+        "siteLoad": 2602,
+        "garage": 260,
+        "gridNet": -1379,
+        "batterySOC": 46,
+        "hotWater": 49.8,
+        "outdoor": 13.9,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T13:55:00.000Z",
+      "values": {
+        "solar": 3901,
+        "siteLoad": 2657,
+        "garage": 260,
+        "gridNet": -1244,
+        "batterySOC": 46,
+        "hotWater": 50,
+        "outdoor": 13.9,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T14:00:00.000Z",
+      "values": {
+        "solar": 3818,
+        "siteLoad": 2693,
+        "garage": 260,
+        "gridNet": -1125,
+        "batterySOC": 45,
+        "hotWater": 50.3,
+        "outdoor": 13.8,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T14:05:00.000Z",
+      "values": {
+        "solar": 3734,
+        "siteLoad": 2709,
+        "garage": 260,
+        "gridNet": -1025,
+        "batterySOC": 45,
+        "hotWater": 50.5,
+        "outdoor": 13.8,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T14:10:00.000Z",
+      "values": {
+        "solar": 3648,
+        "siteLoad": 2706,
+        "garage": 260,
+        "gridNet": -942,
+        "batterySOC": 45,
+        "hotWater": 50.7,
+        "outdoor": 13.8,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T14:15:00.000Z",
+      "values": {
+        "solar": 3560,
+        "siteLoad": 2683,
+        "garage": 260,
+        "gridNet": -877,
+        "batterySOC": 44,
+        "hotWater": 50.8,
+        "outdoor": 13.7,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T14:20:00.000Z",
+      "values": {
+        "solar": 3471,
+        "siteLoad": 2640,
+        "garage": 260,
+        "gridNet": -831,
+        "batterySOC": 44,
+        "hotWater": 51,
+        "outdoor": 13.7,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T14:25:00.000Z",
+      "values": {
+        "solar": 3380,
+        "siteLoad": 2579,
+        "garage": 260,
+        "gridNet": -801,
+        "batterySOC": 44,
+        "hotWater": 51.2,
+        "outdoor": 13.7,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T14:30:00.000Z",
+      "values": {
+        "solar": 3287,
+        "siteLoad": 2500,
+        "garage": 260,
+        "gridNet": -787,
+        "batterySOC": 43,
+        "hotWater": 51.3,
+        "outdoor": 13.6,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T14:35:00.000Z",
+      "values": {
+        "solar": 3193,
+        "siteLoad": 2451,
+        "garage": 308,
+        "gridNet": -742,
+        "batterySOC": 43,
+        "hotWater": 51.5,
+        "outdoor": 13.6,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T14:40:00.000Z",
+      "values": {
+        "solar": 3097,
+        "siteLoad": 2388,
+        "garage": 357,
+        "gridNet": -709,
+        "batterySOC": 43,
+        "hotWater": 51.6,
+        "outdoor": 13.5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T14:45:00.000Z",
+      "values": {
+        "solar": 3000,
+        "siteLoad": 2311,
+        "garage": 407,
+        "gridNet": -689,
+        "batterySOC": 42,
+        "hotWater": 51.7,
+        "outdoor": 13.5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T14:50:00.000Z",
+      "values": {
+        "solar": 2901,
+        "siteLoad": 2219,
+        "garage": 455,
+        "gridNet": -682,
+        "batterySOC": 42,
+        "hotWater": 51.8,
+        "outdoor": 13.4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T14:55:00.000Z",
+      "values": {
+        "solar": 2801,
+        "siteLoad": 2114,
+        "garage": 502,
+        "gridNet": -687,
+        "batterySOC": 42,
+        "hotWater": 51.8,
+        "outdoor": 13.4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T15:00:00.000Z",
+      "values": {
+        "solar": 2700,
+        "siteLoad": 1999,
+        "garage": 547,
+        "gridNet": -701,
+        "batterySOC": 41,
+        "hotWater": 51.9,
+        "outdoor": 13.3,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T15:05:00.000Z",
+      "values": {
+        "solar": 2597,
+        "siteLoad": 1874,
+        "garage": 591,
+        "gridNet": -723,
+        "batterySOC": 41,
+        "hotWater": 52,
+        "outdoor": 13.3,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T15:10:00.000Z",
+      "values": {
+        "solar": 2493,
+        "siteLoad": 1743,
+        "garage": 633,
+        "gridNet": -750,
+        "batterySOC": 41,
+        "hotWater": 52,
+        "outdoor": 13.2,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T15:15:00.000Z",
+      "values": {
+        "solar": 2388,
+        "siteLoad": 1606,
+        "garage": 673,
+        "gridNet": -782,
+        "batterySOC": 40,
+        "hotWater": 52,
+        "outdoor": 13.2,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T15:20:00.000Z",
+      "values": {
+        "solar": 2282,
+        "siteLoad": 1561,
+        "garage": 711,
+        "gridNet": -721,
+        "batterySOC": 40,
+        "hotWater": 52,
+        "outdoor": 13.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T15:25:00.000Z",
+      "values": {
+        "solar": 2175,
+        "siteLoad": 1595,
+        "garage": 745,
+        "gridNet": -580,
+        "batterySOC": 40,
+        "hotWater": 52,
+        "outdoor": 13,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T15:30:00.000Z",
+      "values": {
+        "solar": 2066,
+        "siteLoad": 1627,
+        "garage": 777,
+        "gridNet": -439,
+        "batterySOC": 39,
+        "hotWater": 52,
+        "outdoor": 13,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T15:35:00.000Z",
+      "values": {
+        "solar": 1957,
+        "siteLoad": 1656,
+        "garage": 806,
+        "gridNet": -301,
+        "batterySOC": 39,
+        "hotWater": 51.9,
+        "outdoor": 12.9,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T15:40:00.000Z",
+      "values": {
+        "solar": 1847,
+        "siteLoad": 1681,
+        "garage": 831,
+        "gridNet": -166,
+        "batterySOC": 39,
+        "hotWater": 51.8,
+        "outdoor": 12.8,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T15:45:00.000Z",
+      "values": {
+        "solar": 1736,
+        "siteLoad": 1703,
+        "garage": 853,
+        "gridNet": -33,
+        "batterySOC": 38,
+        "hotWater": 51.8,
+        "outdoor": 12.8,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T15:50:00.000Z",
+      "values": {
+        "solar": 1624,
+        "siteLoad": 1722,
+        "garage": 872,
+        "gridNet": 98,
+        "batterySOC": 38,
+        "hotWater": 51.7,
+        "outdoor": 12.7,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T15:55:00.000Z",
+      "values": {
+        "solar": 1511,
+        "siteLoad": 1737,
+        "garage": 887,
+        "gridNet": 226,
+        "batterySOC": 38,
+        "hotWater": 51.6,
+        "outdoor": 12.6,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T16:00:00.000Z",
+      "values": {
+        "solar": 1398,
+        "siteLoad": 1748,
+        "garage": 898,
+        "gridNet": 350,
+        "batterySOC": 38,
+        "hotWater": 51.4,
+        "outdoor": 12.5,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T16:05:00.000Z",
+      "values": {
+        "solar": 1284,
+        "siteLoad": 1756,
+        "garage": 906,
+        "gridNet": 472,
+        "batterySOC": 37,
+        "hotWater": 51.3,
+        "outdoor": 12.5,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T16:10:00.000Z",
+      "values": {
+        "solar": 1169,
+        "siteLoad": 1760,
+        "garage": 910,
+        "gridNet": 591,
+        "batterySOC": 37,
+        "hotWater": 51.2,
+        "outdoor": 12.4,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T16:15:00.000Z",
+      "values": {
+        "solar": 1053,
+        "siteLoad": 1759,
+        "garage": 909,
+        "gridNet": 706,
+        "batterySOC": 37,
+        "hotWater": 51,
+        "outdoor": 12.3,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T16:20:00.000Z",
+      "values": {
+        "solar": 938,
+        "siteLoad": 1755,
+        "garage": 905,
+        "gridNet": 817,
+        "batterySOC": 36,
+        "hotWater": 50.8,
+        "outdoor": 12.2,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T16:25:00.000Z",
+      "values": {
+        "solar": 821,
+        "siteLoad": 1748,
+        "garage": 898,
+        "gridNet": 927,
+        "batterySOC": 36,
+        "hotWater": 50.7,
+        "outdoor": 12.1,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T16:30:00.000Z",
+      "values": {
+        "solar": 705,
+        "siteLoad": 1736,
+        "garage": 886,
+        "gridNet": 1031,
+        "batterySOC": 36,
+        "hotWater": 50.5,
+        "outdoor": 12,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T16:35:00.000Z",
+      "values": {
+        "solar": 588,
+        "siteLoad": 1721,
+        "garage": 871,
+        "gridNet": 1133,
+        "batterySOC": 36,
+        "hotWater": 50.3,
+        "outdoor": 12,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T16:40:00.000Z",
+      "values": {
+        "solar": 471,
+        "siteLoad": 1702,
+        "garage": 852,
+        "gridNet": 1231,
+        "batterySOC": 35,
+        "hotWater": 50,
+        "outdoor": 11.9,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T16:45:00.000Z",
+      "values": {
+        "solar": 353,
+        "siteLoad": 1680,
+        "garage": 830,
+        "gridNet": 1327,
+        "batterySOC": 35,
+        "hotWater": 49.8,
+        "outdoor": 11.8,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T16:50:00.000Z",
+      "values": {
+        "solar": 236,
+        "siteLoad": 1654,
+        "garage": 804,
+        "gridNet": 1418,
+        "batterySOC": 35,
+        "hotWater": 49.6,
+        "outdoor": 11.7,
+        "compressor": 42
+      }
+    },
+    {
+      "at": "2026-10-25T16:55:00.000Z",
+      "values": {
+        "solar": 118,
+        "siteLoad": 1625,
+        "garage": 775,
+        "gridNet": 1507,
+        "batterySOC": 35,
+        "hotWater": 49.3,
+        "outdoor": 11.6,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T17:00:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1593,
+        "garage": 743,
+        "gridNet": 1593,
+        "batterySOC": 34,
+        "hotWater": 49.1,
+        "outdoor": 11.5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T17:05:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1558,
+        "garage": 708,
+        "gridNet": 1558,
+        "batterySOC": 34,
+        "hotWater": 48.8,
+        "outdoor": 11.4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T17:10:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1520,
+        "garage": 670,
+        "gridNet": 1520,
+        "batterySOC": 34,
+        "hotWater": 48.6,
+        "outdoor": 11.3,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T17:15:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1481,
+        "garage": 631,
+        "gridNet": 1481,
+        "batterySOC": 34,
+        "hotWater": 48.3,
+        "outdoor": 11.2,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T17:20:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1438,
+        "garage": 588,
+        "gridNet": 1438,
+        "batterySOC": 33,
+        "hotWater": 48,
+        "outdoor": 11.1,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T17:25:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1394,
+        "garage": 544,
+        "gridNet": 1394,
+        "batterySOC": 33,
+        "hotWater": 47.8,
+        "outdoor": 11,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T17:30:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1349,
+        "garage": 499,
+        "gridNet": 1349,
+        "batterySOC": 33,
+        "hotWater": 47.5,
+        "outdoor": 10.9,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T17:35:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1301,
+        "garage": 451,
+        "gridNet": 1301,
+        "batterySOC": 33,
+        "hotWater": 47.2,
+        "outdoor": 10.8,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T17:40:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1299,
+        "garage": 403,
+        "gridNet": 1299,
+        "batterySOC": 32,
+        "hotWater": 46.9,
+        "outdoor": 10.7,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T17:45:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1427,
+        "garage": 354,
+        "gridNet": 1427,
+        "batterySOC": 32,
+        "hotWater": 46.7,
+        "outdoor": 10.6,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T17:50:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1551,
+        "garage": 304,
+        "gridNet": 1551,
+        "batterySOC": 32,
+        "hotWater": 46.4,
+        "outdoor": 10.5,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T17:55:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1676,
+        "garage": 260,
+        "gridNet": 1676,
+        "batterySOC": 32,
+        "hotWater": 46.1,
+        "outdoor": 10.4,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T18:00:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1839,
+        "garage": 260,
+        "gridNet": 1839,
+        "batterySOC": 32,
+        "hotWater": 45.8,
+        "outdoor": 10.3,
+        "compressor": 0
+      }
+    },
+    {
+      "at": "2026-10-25T18:05:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1992,
+        "garage": 260,
+        "gridNet": 1992,
+        "batterySOC": 31,
+        "hotWater": 45.6,
+        "outdoor": 10.2,
+        "compressor": 0
+      }
+    }
+  ]
+}

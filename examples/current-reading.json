@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "source": "Synthetic recorder example",
+  "samples": [
+    {
+      "at": "2026-10-25T18:05:00.000Z",
+      "values": {
+        "solar": 0,
+        "siteLoad": 1992,
+        "garage": 260,
+        "gridNet": 1992,
+        "batterySOC": 31,
+        "hotWater": 45.6,
+        "outdoor": 10.2,
+        "compressor": 0
+      }
+    }
+  ]
+}
